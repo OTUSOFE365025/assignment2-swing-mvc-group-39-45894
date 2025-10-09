@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/57HVEcop)
 Example of an MVC design based on Swing. Answer questions 1 & 2 in this README file.
-1.
+1.Swing Frameworks provide a comprehensive set of classes and methods for building Graphical User Interfaces in Java. It offers a variety of benefits such as platform independence, rich and flexible components and the usage of MVC patterns. This enables developers to create professional, feature-rich, and cross-platform desktop applications entirely in Java.  
 
 
 
