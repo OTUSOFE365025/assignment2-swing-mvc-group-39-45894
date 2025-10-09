@@ -1,3 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/57HVEcop)
 Example of an MVC design based on Swing. Answer questions 1 & 2 in this README file.
+1.
 
+
+
+2. This example uses the MVC pattern through the seperation of model, view and controller. The model here stores description of the customer like first and last name, the view builds the Swing Interface with lablels, text and buttons, and the Controller connects them by handling user actions. When a button is clicked, the controller updates the model and displays a message through  the JoOptionPane window. This makes the roles involved clear. For instance the view displays the data, the model stores it, and the controller manages the interactions that take place between them. This is unlike the MVC pattern that was covered in lectures. The model here does not notify the view automatically when something change, refresh updates, or follow the typical Observer Pattern. An example of this can be seen in Model.java where there is no method evident to update the model when changes are made, and the Controller.java acts as the the controller taking responsibility for updating things manually, and managing pop-up messages. More over the Scanner class is not apart of the MVC updation. This version is a more straight forward Swing based MVC, where the controller takes most of the responsibilities, instead of relying on automatic model-view updates. 
